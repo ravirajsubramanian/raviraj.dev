@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Raviraj's Blog`,
-    author: `Raviraj`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Programming Broadcast`,
+    author: `Raviraj Subramanian`,
+    description: `Let's learn together.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `ThisIsRaviraj`,
@@ -57,8 +57,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Raviraj's Blog`,
-        short_name: `Raviraj's blog`,
+        name: `Programming Broadcast`,
+        short_name: `codeBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
