@@ -3,7 +3,7 @@ module.exports = {
     title: `Programming Broadcast`,
     author: `Raviraj Subramanian`,
     description: `Let's learn together.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://programmingbroadcast.netlify.com/`,
     social: {
       twitter: `ThisIsRaviraj`,
     },
@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Programming Broadcast`,
-        short_name: `codeBlog`,
+        short_name: `programmingBroadcast`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

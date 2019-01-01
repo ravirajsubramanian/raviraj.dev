@@ -28,12 +28,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              Personal blog by <strong><a href={`https://about.me/ravirajsubramanian`}>{author}</a></strong>
+              <br />
+              Software Engineer and Technical Evangelist
             </p>
           </div>
         )
