@@ -53,7 +53,7 @@ You can keep your project files in organized way that you haven’t imagined bef
 Okay now. *Where do I start?*
 
 > You don’t learn to walk by following rules. You learn by doing, and by falling over.
-> - Richard Branson
+> \- Richard Branson
 
 Let’s learn by doing.
 
@@ -146,7 +146,7 @@ Overwhelmed by too much stuff to learn? Don’t worry, you will get used to it.
 > Today is cruel.
 > Tomorrow is crueler.
 > And the day after tomorrow is beautiful.
-> `-` Jack Ma
+> \- Jack Ma
 
 Let’s take another step,
 

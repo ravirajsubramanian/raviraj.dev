@@ -3,16 +3,7 @@ title: How to use Git and GitHub for collaborative programming?
 date: '2019-01-01T23:59:59.000Z'
 ---
 
----
-title: How to use Git and GitHub for collaborative programming?
-published: true
-description: Usage of Git and GitHub features for a better development process as an organization
-tags: git, GitHub, beginners, productivity
----
-
-
-
-This is a sequel of my basic tutorial on Git and GitHub posted [here](https://dev.to/ravirajthedeveloper/what-is-git-and-github-and-how-to-use-github-2mb1). If you’re new to Git or GitHub, I would suggest you to start reading from there.
+This is a sequel of my basic tutorial on Git and GitHub posted [here](https://programmingbroadcast.netlify.com/what-is-git-and-github). If you’re new to Git or GitHub, I would suggest you to start reading from there.
 
 ##Catalog:
 - Organizations
@@ -113,7 +104,7 @@ Let's see this in action.
 
 Clone your fork repository to your local machine. Create a new branch, let's name it `feature/first-proposal` and make some code change in the branch and push the commit to your fork in the cloud.
 
-If you don't how to do it, refer my [previous article](https://dev.to/ravirajthedeveloper/what-is-git-and-github-and-how-to-use-github-2mb1).
+If you don't how to do it, refer my [previous article](https://programmingbroadcast.netlify.com/what-is-git-and-github).
 
 Now open your fork repository in the browser. You can see a drop-down to change the project as shown below.
 
