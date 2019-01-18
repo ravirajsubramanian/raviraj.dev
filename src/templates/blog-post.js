@@ -5,6 +5,7 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import { formatReadingTime } from '../utils/helpers'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -24,7 +25,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {post.frontmatter.date}{` • ${formatReadingTime(post.timeToRead)}`}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -77,6 +78,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
