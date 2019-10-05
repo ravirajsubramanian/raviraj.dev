@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Programming Broadcast`,
     author: `Raviraj Subramanian`,
-    description: `Let's learn together.`,
+    description: `A personal blog by Raviraj Subramanian`,
     siteUrl: `https://programmingbroadcast.netlify.com/`,
     social: {
       twitter: `ThisIsRaviraj`,
