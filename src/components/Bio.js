@@ -30,7 +30,7 @@ function Bio() {
             <p>
               Personal blog by <strong><a href={`https://about.me/ravirajsubramanian`}>{author}</a></strong>
               <br />
-              Software Engineer and Technical Evangelist
+              Developer Advocate 🥑 at Freshworks
             </p>
           </div>
         )
