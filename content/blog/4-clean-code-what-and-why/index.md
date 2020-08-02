@@ -41,7 +41,11 @@ Every professionals follow their own set of principles and practices. Being prof
 
 > “It is not enough for code to work.” - Robert C. Martin
 
+<<<<<<< HEAD
 ![Image on a meme about being professional](../../assets/4-clean-code-what-and-why/professional.jpg)
+=======
+![Image on a meme about being professional](../../assets/clean-code-what-and-why/professional.jpg)
+>>>>>>> Add new post on clean code
 
 What impacts a dirty code has?
 * It gets difficult to maintain the code. Remember the [Open-Closed principle](https://en.wikipedia.org/wiki/Open-closed_principle).
