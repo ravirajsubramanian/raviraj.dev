@@ -28,7 +28,7 @@ Considering this fact, dirty code has more cost with respect to time. To say the
 
 As a matter of fact, the ratio of time spent reading code versus writing is well over 10 to 1.
 
-![Image for Code review scenario with two doors with minimal to maximum WTFs per minute](../../assets/clean-code-what-and-why/WtfPerMinute.jpg)
+![Image for Code review scenario with two doors with minimal to maximum WTFs per minute](../../assets/4-clean-code-what-and-why/WtfPerMinute.jpg)
 
 It's the "craftsmanship" that puts you behind the left door.
 
@@ -41,7 +41,7 @@ Every professionals follow their own set of principles and practices. Being prof
 
 > “It is not enough for code to work.” - Robert C. Martin
 
-![Image on a meme about being professional](../../assets/clean-code-what-and-why/professional.jpg)
+![Image on a meme about being professional](../../assets/4-clean-code-what-and-why/professional.jpg)
 
 What impacts a dirty code has?
 * It gets difficult to maintain the code. Remember the [Open-Closed principle](https://en.wikipedia.org/wiki/Open-closed_principle).
