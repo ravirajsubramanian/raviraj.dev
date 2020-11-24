@@ -9,7 +9,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
         return (
           <div
             style={{
@@ -30,7 +30,7 @@ function Bio() {
             <p>
               Personal blog by <strong><a href={`https://about.me/ravirajsubramanian`}>{author}</a></strong>
               <br />
-              Developer Advocate 🥑 at Freshworks
+              Senior Developer Advocate 🥑 at Freshworks
             </p>
           </div>
         )
