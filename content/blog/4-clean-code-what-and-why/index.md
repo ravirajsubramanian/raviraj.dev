@@ -44,6 +44,7 @@ Every professionals follow their own set of principles and practices. Being prof
 ![Image on a meme about being professional](../../assets/4-clean-code-what-and-why/professional.jpg)
 
 What impacts a dirty code has?
+
 * It gets difficult to maintain the code. Remember the [Open-Closed principle](https://en.wikipedia.org/wiki/Open-closed_principle).
 * As it is difficult to add features, the project backlog grows and slows down the application releases.
 * Over time, it results in poor performance of the application.
