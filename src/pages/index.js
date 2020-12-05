@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
+import '../utils/global.css';
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import { formatReadingTime } from '../utils/helpers'
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
+import sun from '../../content/assets/sun.png';
+import moon from '../../content/assets/moon.png';
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,6 +24,38 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
+        <ThemeToggler>
+          {({ theme, toggleTheme }) => (
+            <label>
+              <input
+                icons={{
+                  checked: (
+                    <img
+                      src={moon}
+                      width="16"
+                      height="16"
+                      role="presentation"
+                      style={{ pointerEvents: 'none' }}
+                    />),
+                  unchecked: (
+                    <img
+                      src={sun}
+                      width="16"
+                      height="16"
+                      role="presentation"
+                      style={{ pointerEvents: 'none' }}
+                    />
+                  )
+                }}
+                type="checkbox"
+                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                checked={theme === 'dark'}
+              />{' '}
+            Dark mode
+            </label>
+          )}
+        </ThemeToggler>
+
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug

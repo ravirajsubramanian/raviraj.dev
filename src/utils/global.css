@@ -1,0 +1,22 @@
+body {
+
+  --theme: #4F8AFF;
+  --bg: white;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: var(--theme);
+  --hr: hsla(0, 0%, 0%, 0.2);
+
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --theme: #5CA4FF;
+  --bg: #24292E;
+  --textNormal: white;
+  --textTitle: white;
+  --textLink: var(--theme);
+  --hr: hsla(0, 0%, 100%, 0.2);
+}

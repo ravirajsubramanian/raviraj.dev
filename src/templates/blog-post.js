@@ -16,13 +16,16 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
+        <h1 style={{
+            color: 'var(--textNormal)',
+          }}>{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
             display: `block`,
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
+            color: 'var(--textNormal)',
           }}
         >
           {post.frontmatter.date}{` • ${formatReadingTime(post.timeToRead)}`}
@@ -31,6 +34,7 @@ class BlogPostTemplate extends React.Component {
         <hr
           style={{
             marginBottom: rhythm(1),
+            color: 'var(--hr)',
           }}
         />
         <Bio />
@@ -42,6 +46,7 @@ class BlogPostTemplate extends React.Component {
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            color: 'var(--textNormal)',
           }}
         >
           <li>

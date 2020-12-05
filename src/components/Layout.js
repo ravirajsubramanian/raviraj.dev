@@ -16,6 +16,7 @@ class Layout extends React.Component {
             ...scale(1.2),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            color: 'var(--textTitle)'
           }}
         >
           <Link
@@ -37,6 +38,7 @@ class Layout extends React.Component {
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
             marginBottom: rhythm(-1),
+            color: 'var(--theme)'
           }}
         >
           <Link
@@ -59,6 +61,7 @@ class Layout extends React.Component {
           marginRight: `auto`,
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          color: 'var(--textNormal)',
         }}
       >
         {header}

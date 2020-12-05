@@ -27,7 +27,8 @@ function Bio() {
                 borderRadius: `100%`,
               }}
             />
-            <p>
+            <p
+              style={{ color: 'var(--textNormal)' }}>
               Personal blog by <strong><a href={`https://about.me/ravirajsubramanian`}>{author}</a></strong>
               <br />
               Senior Developer Advocate 🥑 at Freshworks
