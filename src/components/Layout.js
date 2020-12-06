@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import { rhythm, scale } from '../utils/typography'
+import sun from '../../content/assets/sun.png';
+import moon from '../../content/assets/moon.png';
 
 class Layout extends React.Component {
   render() {
@@ -11,25 +14,45 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.2),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            color: 'var(--textTitle)'
-          }}
-        >
-          <Link
+        <span class="flex-container space-between">
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+              color: 'var(--textTitle)'
             }}
-            to={`/`}
+            class='flex-item'
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <span class='flex-item'>
+                <input
+                  type="checkbox"
+                  id="dark_mode_checkbox"
+                  onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                  checked={theme === 'dark'}
+                  style={{ display: "none" }}
+                />
+                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{
+                  display: 'block',
+                  'margin-left': 'auto',
+                  'margin-right': 'auto'
+                }}></img></label>
+              </span>
+            )}
+          </ThemeToggler>
+        </span>
       )
     } else {
       header = (

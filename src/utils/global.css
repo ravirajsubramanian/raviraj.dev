@@ -20,3 +20,14 @@ body.dark {
   --textLink: var(--theme);
   --hr: hsla(0, 0%, 100%, 0.2);
 }
+
+.flex-container {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex-item {
+  text-align: center;
+  vertical-align: middle;
+}

@@ -24,37 +24,20 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <ThemeToggler>
+        {/* <ThemeToggler>
           {({ theme, toggleTheme }) => (
-            <label>
+            <span>
               <input
-                icons={{
-                  checked: (
-                    <img
-                      src={moon}
-                      width="16"
-                      height="16"
-                      role="presentation"
-                      style={{ pointerEvents: 'none' }}
-                    />),
-                  unchecked: (
-                    <img
-                      src={sun}
-                      width="16"
-                      height="16"
-                      role="presentation"
-                      style={{ pointerEvents: 'none' }}
-                    />
-                  )
-                }}
                 type="checkbox"
+                id="dark_mode_checkbox"
                 onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                 checked={theme === 'dark'}
-              />{' '}
-            Dark mode
-            </label>
+                style={{ display: "none" }}
+              />
+              <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{ position: 'absolute', right: '0px' }}></img></label>
+            </span>
           )}
-        </ThemeToggler>
+        </ThemeToggler> */}
 
         <Bio />
         {posts.map(({ node }) => {
