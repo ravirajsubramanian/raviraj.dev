@@ -56,25 +56,46 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-            marginBottom: rhythm(-1),
-            color: 'var(--theme)'
-          }}
-        >
-          <Link
+        <span class="flex-container space-between">
+          <h3
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
+              marginBottom: rhythm(-1),
+              color: 'var(--theme)'
             }}
-            to={`/`}
+            class='flex-item'
           >
-            {title}
-          </Link>
-        </h3>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h3>
+          <ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <span class='flex-item'>
+                <input
+                  type="checkbox"
+                  id="dark_mode_checkbox"
+                  onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                  checked={theme === 'dark'}
+                  style={{ display: "none" }}
+                />
+                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{
+                  display: 'block',
+                  'margin-left': 'auto',
+                  'margin-right': 'auto'
+                }}></img></label>
+              </span>
+            )}
+          </ThemeToggler>
+        </span>
       )
     }
     return (
