@@ -231,12 +231,6 @@ The following are some of the advanced features in Git that you can use to make 
 
 All of the above said commands have to be used with some more options passed along with it to actually make it work. Learn about them before using those and make sure you don't collapse the code base and lose anything.
 
-If you like this post, like it. Even bookmark it if you really found it useful. 😉
-
-Let's connect on social platforms,
-
-[GitHub](https://github.com/ravirajthedeveloper), [LinkedIn](https://www.linkedin.com/in/ravirajsubramanian), [Twitter](https://twitter.com/ThisIsRaviraj)
+If you like this post, share it. Bookmark it if you found it useful. 😉
 
 Happy coding. 👩‍💻🙂
-
-\- [Raviraj Subramanian](https://about.me/ravirajsubramanian)

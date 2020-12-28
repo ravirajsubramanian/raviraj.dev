@@ -165,9 +165,9 @@ Go back to your terminal and make sure you’re in your project directory. Type,
 It will say something like,
 
     “On branch master
-    
+
     Your branch is up to date with ‘origin/master’.
-    
+
     nothing to commit, working tree clean”
 
 It means that you have never made any change after it has been updated to cloud repository.
@@ -196,7 +196,7 @@ You can see something like the following and some changed files names in red as,
 
    ON branch new-branch
    Changes not staged for commit:
-   
+
    Modified: <PATH_TO_THE_FILE_THAT_YOU_JUST_MODIFIED>
 
 It means, the mentioned file contents has been changed after the project has been updated with the cloud repository. You can see in the first line that you’re in the new branch that you just created.
@@ -256,7 +256,3 @@ I have told you branching has a lot of advantages over ancient methods. We will 
 Have you learned something in this post? Or you got any doubt from the examples in this post? The comment box is all yours. 😉
 
 *Happy Coding!* 😈
-
-[Raviraj Subramanian](https://about.me/ravirajsubramanian)
-
-Find me on [GitHub](https://github.com/ravirajthedeveloper) and [Twitter](https://twitter.com/thisisraviraj)
