@@ -7,10 +7,6 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import { formatReadingTime } from '../utils/helpers'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
-
-import sun from '../../content/assets/sun.png';
-import moon from '../../content/assets/moon.png';
 
 class BlogIndex extends React.Component {
   render() {
@@ -24,21 +20,6 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        {/* <ThemeToggler>
-          {({ theme, toggleTheme }) => (
-            <span>
-              <input
-                type="checkbox"
-                id="dark_mode_checkbox"
-                onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                checked={theme === 'dark'}
-                style={{ display: "none" }}
-              />
-              <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{ position: 'absolute', right: '0px' }}></img></label>
-            </span>
-          )}
-        </ThemeToggler> */}
-
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
