@@ -44,7 +44,7 @@ class Layout extends React.Component {
                   checked={theme === 'dark'}
                   style={{ display: "none" }}
                 />
-                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{
+                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? moon : sun} style={{
                   display: 'block',
                   'margin-left': 'auto',
                   'margin-right': 'auto'
@@ -87,7 +87,7 @@ class Layout extends React.Component {
                   checked={theme === 'dark'}
                   style={{ display: "none" }}
                 />
-                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? sun : moon} style={{
+                <label for="dark_mode_checkbox"><img src={theme === 'dark' ? moon : sun} style={{
                   display: 'block',
                   'margin-left': 'auto',
                   'margin-right': 'auto'
