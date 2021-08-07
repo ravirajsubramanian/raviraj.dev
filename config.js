@@ -1,14 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://ravirajthinks.netlify.app',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Profile of Raviraj Subramanian',
+  subtitle: 'Developer Advocate @ Freshworks',
+  copyright: '© 2021',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 5,
   useKatex: false,
   menu: [
     {
@@ -25,26 +24,26 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Raviraj Subramanian',
+    photo: '/profile-photo.jpg',
+    bio: 'Developer Advocate @ Freshworks',
     contacts: {
+      twitter: 'ThisIsRaviraj',
+      github: 'ravirajsubramanian',
+      linkedin: 'ravirajsubramanian',
+      medium: '@ravirajsubramanian',
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
       youtube: '',
       soundcloud: '',
-      medium: '',
     }
   }
 };
