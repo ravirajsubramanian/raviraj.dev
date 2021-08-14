@@ -16,6 +16,19 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-XEL1XYJKXR",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        exclude: [],
+        pageTransitionDelay: 0,
+        defer: false,
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
@@ -186,7 +199,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/profile-photo.jpg'
+        icon: 'static/profile-photo.webp'
       },
     },
     {
