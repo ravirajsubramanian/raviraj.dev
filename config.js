@@ -25,7 +25,7 @@ module.exports = {
   ],
   author: {
     name: 'Raviraj Subramanian',
-    photo: '/profile-photo.jpg',
+    photo: '/profile-photo.webp',
     bio: 'Developer Advocate @ Freshworks',
     contacts: {
       twitter: 'ThisIsRaviraj',
