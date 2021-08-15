@@ -16,19 +16,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-XEL1XYJKXR",
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-        exclude: [],
-        pageTransitionDelay: 0,
-        defer: false,
-        enableWebVitalsTracking: true,
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
@@ -151,12 +138,11 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: 'gatsby-plugin-gtag',
       options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true
-        }
+        trackingId: [siteConfig.googleAnalyticsId],
+        head: true,
+        anonymize: true
       }
     },
     {
