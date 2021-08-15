@@ -45,5 +45,6 @@ module.exports = {
       youtube: '',
       soundcloud: '',
     }
-  }
+  },
+  googleAnalyticsId: "G-XEL1XYJKXR"
 };

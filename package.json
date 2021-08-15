@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn clean && gatsby develop",
     "build": "yarn clean && gatsby build",
-    "deploy": "yarn clean && gatsby build && gatsby serve",
+    "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -48,8 +48,7 @@
     "gatsby-plugin-catch-links": "^2.10.0",
     "gatsby-plugin-feed": "^2.13.1",
     "gatsby-plugin-flow": "^1.10.0",
-    "gatsby-plugin-google-analytics": "^3.11.0",
-    "gatsby-plugin-google-gtag": "^2.8.0",
+    "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-netlify": "^2.11.1",
     "gatsby-plugin-netlify-cms": "^4.10.1",
