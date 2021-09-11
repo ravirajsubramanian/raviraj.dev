@@ -2,7 +2,7 @@
 template: post
 title: Why Systematic Investment Plan (SIP) is the best?
 slug: why-systematic-investment-plan-sip-is-the-best
-socialImage: /media/6-investment-social-image.jpg
+socialImage: /media/6-my-investment-through-sip.png
 draft: false
 date: 2021-09-11T10:10:22.559Z
 description: >-
@@ -56,5 +56,3 @@ Take a look at how my investments through SIP (Yellow line) compared with my dir
 * For AMCs and SEBI (It's the regulatory board for the securities and exchange in India), there's no difference between SIP and lumpsum. Only the investment transaction does matter, and SIP is just the process of how the stockbrokers make these transactions periodically. Otherwise, both the trades are the same when it comes to investing in the fund of AMCs.
 * Some of the mutual funds come with a lock-in period of a few years or a penalty (Exit Load) for early liquidity for some of the other funds. It depends on the type of fund that is invested in any AMC. When invested via SIP, this lock-in period and Exit Load periods are also a rolling time window. The start of the SIP does not matter, and only the date of when the transaction was made is considered.
 * Money withdrawal does not vary based on how we invest the money. If the NAV units are available for redemption, they can be redeemed immediately to your bank account. Something called SWP (Systematic Withdrawal Plan) will be useful if you want to redeem periodically. Like a regular income or pension, it could be helpful for those who need it in an automated way. SWP is not related to SIP.
-
-Thanks to [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) for the image from [Unsplash](https://unsplash.com/s/photos/regular-savings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
