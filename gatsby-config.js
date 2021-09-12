@@ -252,6 +252,17 @@ module.exports = {
       }
     },
     'gatsby-plugin-flow',
-    'gatsby-plugin-optimize-svgs'
+    'gatsby-plugin-optimize-svgs',
+    {
+      resolve: `gatsby-plugin-csp`,
+      options: {
+        mergeDefaultDirectives: true,
+        directives: {
+          "script-src": "'self' www.google-analytics.com",
+          "style-src": "'self' 'unsafe-inline'",
+          "img-src": "'self' data: www.google-analytics.com"
+        }
+      }
+    }
   ]
 };
