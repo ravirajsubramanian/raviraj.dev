@@ -20,22 +20,8 @@
   "author": "Raviraj Subramanian",
   "license": "MIT",
   "keywords": [
-    "gatsby",
-    "graphql",
-    "netlify",
-    "netlify-cms",
-    "pagination",
-    "categories",
-    "tags",
-    "prismjs",
-    "static",
-    "lost",
-    "blog",
-    "minimal",
-    "react",
-    "theme",
-    "starter",
-    "disqus"
+    "personal-website",
+    "portfolio"
   ],
   "dependencies": {
     "@sentry/gatsby": "^6.7.2",
@@ -81,7 +67,8 @@
     "react": "^17.0.2",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
