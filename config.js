@@ -1,18 +1,22 @@
 'use strict';
 
 module.exports = {
-  url: 'https://ravirajthinks.netlify.app',
+  url: 'https://raviraj.dev',
   pathPrefix: '/',
-  title: 'Profile of Raviraj Subramanian',
-  subtitle: 'Developer Advocate @ Freshworks',
-  copyright: '© 2021',
+  title: 'Raviraj Subramanian\'s Blog',
+  subtitle: 'Senior Developer Advocate @ Freshworks',
+  copyright: '© 2022',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 8,
   useKatex: false,
   menu: [
     {
       label: 'Articles',
       path: '/'
+    },
+    {
+      label: 'Categories',
+      path: '/categories'
     },
     {
       label: 'About me',
@@ -26,13 +30,13 @@ module.exports = {
   author: {
     name: 'Raviraj Subramanian',
     photo: '/profile-photo.webp',
-    bio: 'Developer Advocate @ Freshworks',
+    bio: 'Senior Developer Advocate @ Freshworks',
     contacts: {
       twitter: 'ThisIsRaviraj',
       github: 'ravirajsubramanian',
       linkedin: 'ravirajsubramanian',
       medium: '@ravirajsubramanian',
-      email: '',
+      email: 'hello@raviraj.dev',
       facebook: '',
       telegram: '',
       rss: '',

@@ -17,7 +17,7 @@ I don't know the psychology behind the stage-fear. So, I'm going to share how I 
 TL;DR: Stage-fear is a psychological illusion. Overcome it by going to the stage more and delivering sessions with confidence.
 
 <figure class="image">
-  <img src="./assets/10-how-did-i-overcome-my-stage-fear/10-stage-lights.jpg" alt="Image of an empty stage with focus lights">
+  <img src="./assets/11-how-did-i-overcome-my-stage-fear/11-stage-lights.jpg" alt="Image of an empty stage with focus lights">
   <figcaption>Photo by <a href="https://www.pexels.com/@monica?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Monica Silvestre</a> from <a href="https://www.pexels.com/photo/people-at-theater-713149/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a></figcaption>
 </figure>
 
